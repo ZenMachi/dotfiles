@@ -3,3 +3,8 @@
 **/.git/**
 **/node_modules/
 **/node_modules/**
+
+{{- if ne .chezmoi.os "windows" }}
+.glzr
+AppData
+{{- end }}
