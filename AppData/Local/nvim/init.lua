@@ -1,7 +1,4 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 
-{{ if eq .chezmoi.os "windows" }}
 vim.o.shell = "powershell.exe"
-{{ else }}
-{{ end }}
