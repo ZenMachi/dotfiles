@@ -8,3 +8,9 @@
 .glzr
 AppData
 {{ end }}
+
+{{ if ne .chezmoi.os "linux" }}
+.bashrc
+.bash_profile
+.config/
+{{ end }}
