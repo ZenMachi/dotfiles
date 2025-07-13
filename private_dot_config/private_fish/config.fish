@@ -3,6 +3,7 @@ if status is-interactive
 end
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(devbox global shellenv)"
 
 # source /usr/share/nvm/init-nvm.sh
 set -gx PATH "$PATH:$HOME/.puro/bin" # Added by Puro
