@@ -1,0 +1,10 @@
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+export PATH="$PATH:$HOME/.puro/bin" # Added by Puro
+export PATH="$PATH:$HOME/.puro/shared/pub_cache/bin" # Added by Puro
+export PATH="$PATH:$HOME/.puro/envs/default/flutter/bin" # Added by Puro
+export PURO_ROOT="/home/zenmachi/.puro" # Added by Puro
