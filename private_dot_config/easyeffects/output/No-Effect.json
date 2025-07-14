@@ -1,0 +1,8 @@
+{
+    "output": {
+        "blocklist": [
+            "Virtual Surround Sink Stream from VirtualSurround"
+        ],
+        "plugins_order": []
+    }
+}
