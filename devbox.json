@@ -1,9 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.15.0/.schema/devbox.schema.json",
   "packages": {
-    "php":     "8.2.12",
-    "mariadb": "latest",
-    "apache":  "2.4.58"
+    "php":                    "8.2.12",
+    "mariadb":                "latest",
+    "apache":                 "2.4.58",
+    "php82Packages.composer": "latest"
   },
   "shell": {
     "init_hook": [
