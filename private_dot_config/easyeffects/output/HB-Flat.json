@@ -7,7 +7,7 @@
             "floor": 20.0,
             "floor-active": false,
             "harmonics": 8.500000000000005,
-            "input-gain": 0.1,
+            "input-gain": -2.1,
             "output-gain": -0.1,
             "scope": 180.0
         },
