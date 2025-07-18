@@ -23,6 +23,7 @@ cantarell-fonts
 chezmoi
 clang
 cloudflare-warp-bin
+cpupower
 cryptsetup
 darkly
 device-mapper
@@ -124,6 +125,7 @@ kscreen
 kvantum
 kwallet-pam
 kwayland-integration
+kwin-effects-forceblur
 lazygit
 less
 libappindicator-gtk3
