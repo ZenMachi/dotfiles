@@ -228,6 +228,7 @@ sg3_utils
 smartmontools
 sof-firmware
 spectacle
+spotify
 sshfs
 steam
 sudo
