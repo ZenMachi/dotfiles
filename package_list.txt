@@ -168,7 +168,6 @@ networkmanager-openvpn
 nfs-utils
 nilfs-utils
 ninja
-nodejs
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -246,6 +245,7 @@ unzip
 upscayl-bin
 usb_modeswitch
 usbutils
+vesktop
 vi
 visual-studio-code-bin
 vpnc
