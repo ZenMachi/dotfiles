@@ -126,6 +126,7 @@ kvantum
 kwallet-pam
 kwayland-integration
 kwin-effects-forceblur
+lact
 lazygit
 less
 libappindicator-gtk3
