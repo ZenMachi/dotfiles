@@ -177,6 +177,7 @@ npm
 nss-mdns
 ntfs-3g
 ntp
+nvtop
 okular
 openconnect
 openvpn
