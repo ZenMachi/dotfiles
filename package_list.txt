@@ -67,6 +67,7 @@ f2fs-tools
 fakeroot
 fastfetch
 ffmpegthumbs
+filezilla
 firefox
 firewalld
 fish
@@ -101,7 +102,10 @@ inxi
 iptables-nft
 iwd
 jdk-openjdk
+jdk8-openjdk
 jfsutils
+jre8-openjdk
+jre8-openjdk-headless
 kate
 kcalc
 kde-cli-tools
@@ -235,6 +239,7 @@ steam
 sudo
 sysfsutils
 systemd-sysvcompat
+termscp
 texinfo
 tldr
 ttf-bitstream-vera
