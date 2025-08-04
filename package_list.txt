@@ -213,6 +213,7 @@ ppp
 pptpclient
 print-manager
 protonplus
+protontricks
 python-capng
 python-httplib2
 python-packaging
@@ -256,6 +257,7 @@ usb_modeswitch
 usbutils
 vesktop
 vi
+vim
 visual-studio-code-bin
 vpnc
 waydroid
@@ -264,6 +266,9 @@ wezterm
 wget
 which
 whois
+wine
+wine-mono
+winetricks
 wireless-regdb
 wireplumber
 wpa_supplicant
@@ -288,3 +293,4 @@ xz
 yarn
 yay
 youtube-music-bin
+zoom
