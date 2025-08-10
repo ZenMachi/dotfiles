@@ -20,6 +20,7 @@ btrfs-progs
 c-ares
 calf
 cantarell-fonts
+cava
 chezmoi
 clang
 cloudflare-warp-bin
@@ -189,6 +190,7 @@ openconnect
 openvpn
 os-prober
 pacman-contrib
+partitionmanager
 patchutils
 pavucontrol
 perl
