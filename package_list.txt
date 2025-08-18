@@ -246,6 +246,7 @@ sysfsutils
 systemd-sysvcompat
 termscp
 texinfo
+thunderbird
 tldr
 ttf-bitstream-vera
 ttf-dejavu
