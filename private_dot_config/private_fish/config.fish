@@ -12,5 +12,6 @@ set -gx PATH "$PATH:$HOME/.puro/envs/default/flutter/bin" # Added by Puro
 set -gx PURO_ROOT "/home/zenmachi/.puro" # Added by Puro
 set -gx PATH "$PATH:$HOME/.cargo/bin"
 
+set -g fish_greeting
 
 starship init fish | source
