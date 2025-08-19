@@ -143,6 +143,7 @@ linux
 linux-firmware
 linux-firmware-marvell
 linux-headers
+linux-wifi-hotspot
 lld
 llvm
 logrotate
