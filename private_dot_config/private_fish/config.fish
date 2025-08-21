@@ -11,7 +11,11 @@ set -gx PATH "$PATH:$HOME/.puro/shared/pub_cache/bin" # Added by Puro
 set -gx PATH "$PATH:$HOME/.puro/envs/default/flutter/bin" # Added by Puro
 set -gx PURO_ROOT "/home/zenmachi/.puro" # Added by Puro
 set -gx PATH "$PATH:$HOME/.cargo/bin"
+set -gx PATH "$PATH:$HOME/.local/bin/"
 
 set -g fish_greeting
 
 starship init fish | source
+
+# Created by `pipx` on 2025-08-21 02:50:37
+set PATH $PATH /home/zenmachi/.local/bin

@@ -3,6 +3,7 @@ alsa-plugins
 alsa-utils
 amd-ucode
 android-studio
+android-tools
 archlinux-keyring
 ark
 b43-fwcutter
@@ -221,6 +222,8 @@ protontricks
 python-capng
 python-httplib2
 python-packaging
+python-pip
+python-pipx
 python-pyparsing
 python-pyqt5
 python-requests
