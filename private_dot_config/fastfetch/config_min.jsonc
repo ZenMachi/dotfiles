@@ -5,6 +5,7 @@
     "source": "~/.config/fastfetch/logo/encore.jpg",
     "height": 15,
     "width": 30,
+    "preserveAspectRatio": true,
     "padding": {
       "top": 3,
       "left": 3,
