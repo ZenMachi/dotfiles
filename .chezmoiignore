@@ -13,4 +13,6 @@ AppData
 .bashrc
 .bash_profile
 .config/
+devbox.json
+package_list.txt
 {{ end }}

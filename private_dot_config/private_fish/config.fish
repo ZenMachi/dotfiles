@@ -6,6 +6,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(devbox global shellenv)"
 
 # source /usr/share/nvm/init-nvm.sh
+# set -gx PATH "$HOME/.venv/bin:$PATH"
 set -gx PATH "$PATH:$HOME/.puro/bin" # Added by Puro
 set -gx PATH "$PATH:$HOME/.puro/shared/pub_cache/bin" # Added by Puro
 set -gx PATH "$PATH:$HOME/.puro/envs/default/flutter/bin" # Added by Puro
