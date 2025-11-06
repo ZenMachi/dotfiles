@@ -1,0 +1,96 @@
+// First set this script
+git config --global user.email "alheta.matalarens@gmail.com"
+git config --global user.name "ZenMachi"
+
+yay --save --answerclean All --answerdiff None
+
+rate-mirrors
+> rate-mirrors --allow-root --protocol https arch | sudo tee /etc/pacman.d/mirrorlist
+> rate-mirrors --allow-root --protocol https endeavouros | sudo tee /etc/pacman.d/endeavouros-mirrorlist
+
+
+// Then install all this dependencies
+fish
+// Install fish plugin manager
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+
+fisher install edc/bass
+// Install catppuccin fish theme
+fisher install catppuccin/fish
+
+
+// Install Starship
+curl -sS https://starship.rs/install.sh | sh
+starship init fish | source
+
+// install oh my fish
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+// install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+> omf install nvm
+
+// install puro
+curl -o- https://puro.dev/install.sh | PURO_VERSION="1.4.11" bash
+
+// install devbox
+curl -fsSL https://get.jetify.com/devbox | bash
+> to set global variable use : devbox global add ***
+
+then install blex mono nerd font
+
+xclip
+lazygit
+dust
+github-cli
+typst
+nvim
+easyeffects
+lsp-plugins
+calf
+brave-bin
+freedownloadmanager
+android-studio
+discord
+sshfs
+youtube-music-bin
+phpwebstudy-bin
+wezterm
+upscayl-bin
+docker-desktop
+> sudo usermod -aG docker $USER
+waydroid
+> sudo waydroid init -s GAPPS
+> sudo iptables -A FORWARD -i waydroid0 -o enp3s0 -j ACCEPT
+> sudo iptables -A FORWARD -i enp3s0 -o waydroid0 -j ACCEPT
+> sudo iptables -t nat -A POSTROUTING -o enp3s0 -j MASQUERADE
+> sudo systemctl start iptables
+> sudo systemctl enable iptables
+> sudo firewall-cmd --permanent --zone=public --add-interface=enp3s0
+> sudo firewall-cmd --permanent --zone=trusted --add-interface=waydroid0
+> #in /usr/lib/waydroid/data/scripts
+>> LXC_USE_NFT="false" # make sure it false
+
+// Games
+steam
+game-devices-udev // for controller to work
+protonplus // for manage proton version
+mangohud // to show fps info
+goverlay // to setting mangohud
+
+// Ricing
+kde-material-you-colors
+kvantum
+klassy
+darkly
+sddm-silent-theme
+> sudoedit  /etc/sddm.conf
+# Make sure these options are correct:
+    [General]
+    InputMethod=qtvirtualkeyboard
+    GreeterEnvironment=QML2_IMPORT_PATH=/usr/share/sddm/themes/silent/components/,QT_IM_MODULE=qtvirtualkeyboard
+
+    [Theme]
+    Current=silent
+> cd /usr/share/sddm/themes/silent/
+  ./test.sh
+> sudo chmod +x ./test.sh
