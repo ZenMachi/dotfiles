@@ -38,6 +38,10 @@ curl -fsSL https://get.jetify.com/devbox | bash
 
 then install blex mono nerd font
 
+linux-cachyos-bore
+linux-cachyos-bore-headers
+grub-btrfs
+timeshift
 xclip
 lazygit
 dust
