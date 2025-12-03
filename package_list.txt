@@ -14,14 +14,20 @@ bind
 bluedevil
 bluez
 bluez-utils
+bottles
 brave-bin
 breeze-gtk
 btop
 btrfs-progs
 c-ares
+cachyos-keyring
+cachyos-mirrorlist
+cachyos-v3-mirrorlist
+cachyos-v4-mirrorlist
 calf
 cantarell-fonts
 cava
+cheese
 chezmoi
 clang
 cloudflare-warp-bin
@@ -74,6 +80,7 @@ filezilla
 firefox
 firewalld
 fish
+flatpak
 freedownloadmanager
 freetype2
 fwupd
@@ -88,6 +95,7 @@ gperf
 gpm
 gptfdisk
 grub
+grub-btrfs
 gsmartcontrol
 gst-libav
 gst-plugin-pipewire
@@ -110,7 +118,9 @@ jdk8-openjdk
 jfsutils
 jre8-openjdk
 jre8-openjdk-headless
+kamoso
 kate
+kbdlight
 kcalc
 kde-cli-tools
 kde-gtk-config
@@ -137,7 +147,7 @@ kwin-effects-forceblur
 lact
 lazygit
 less
-libappindicator-gtk3
+libappindicator
 libdvdcss
 libgsf
 libopenraw
@@ -187,6 +197,7 @@ nss-mdns
 ntfs-3g
 ntp
 nvtop
+obs-studio
 okular
 onlyoffice-bin
 openconnect
@@ -196,6 +207,7 @@ pacman-contrib
 partitionmanager
 patchutils
 pavucontrol
+pear-desktop
 perl
 phpwebstudy-bin
 pipewire-alsa
@@ -211,6 +223,7 @@ plasma-pa
 plasma-systemmonitor
 plasma-workspace
 plocate
+pnpm
 poppler-glib
 power-profiles-daemon
 powerdevil
@@ -219,13 +232,17 @@ pptpclient
 print-manager
 protonplus
 protontricks
+python-build
 python-capng
+python-hatch-vcs
 python-httplib2
+python-installer
 python-packaging
 python-pip
 python-pipx
 python-pyparsing
 python-pyqt5
+python-pyqt6
 python-requests
 python-six
 rate-mirrors
@@ -252,6 +269,7 @@ systemd-sysvcompat
 termscp
 texinfo
 thunderbird
+timeshift
 tldr
 ttf-bitstream-vera
 ttf-dejavu
@@ -263,6 +281,7 @@ unzip
 upscayl-bin
 usb_modeswitch
 usbutils
+ventoy
 vesktop
 vi
 vim
@@ -300,5 +319,4 @@ xsettingsd
 xz
 yarn
 yay
-youtube-music-bin
 zoom
