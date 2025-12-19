@@ -15,4 +15,6 @@ AppData
 .config/
 devbox.json
 package_list.txt
+firewalld_backup/
+All Dependencies Arch.txt
 {{ end }}
